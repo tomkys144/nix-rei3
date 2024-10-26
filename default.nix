@@ -14,7 +14,7 @@ buildGoModule rec {
         repo = "r3";
         rev = "v${version}";
         hash = "sha256-0s444p12shr85p4zmsghg4jirlkrfr3k6ybsfnalbcfjmb3v1j1b";
-    }
+    };
 
     vendorHash = null;
 
@@ -22,5 +22,5 @@ buildGoModule rec {
         description = "REI3 - Free and open low code";
         homepage = "https://rei3.de/";
         license = lib.licenses.mit;
-    }
+    };
 }
